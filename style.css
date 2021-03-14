@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.page_wrapper{
+    max-width: 1440px;
+    width: 100%;
+    min-width: 1080px;
+    margin: 0 auto;
+}
+
+.page_header{
+
+}
+
+.page_main{
+
+}
+
+.page_footer{
+
+}
+
+.main_section{
+    
+}
