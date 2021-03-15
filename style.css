@@ -2,25 +2,155 @@
     box-sizing: border-box;
 }
 
+.bg_header{
+    min-height: 780px;
+    background-image: url('./assets/header.png');
+}
+
 .page_wrapper{
     max-width: 1440px;
     width: 100%;
     min-width: 1080px;
     margin: 0 auto;
+    position: relative;
 }
 
 .page_header{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    padding: 0px 80px;
+    text-align: center;
+    /* background-color: #02160b */
+}
 
+.page_header__menu{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .page_main{
 
 }
 
-.page_footer{
+.menu_header{
+    list-style: none;
+    margin: 0 185px;
+    text-align: right;
+    justify-content: space-between;
+    width: 340px;
+    display: flex;
+}
+
+.menu_header a{
+    text-decoration: none;
 
 }
 
+.menu_header li, .menu_header a{
+    display: inline-block;
+    padding: 3px 0;
+    margin: right;
+    font-family: Open Sans;
+    text-align: center;
+    vertical-align: top;
+    color: #F7F7F7;
+}
+
+.logo_name{
+    font-size: 32px;
+    font-family: Open Sans;
+    padding: 0;
+}
+
+.ostMenu{
+    font-size: 23px;
+}
+.menu_header a:hover{
+    text-decoration: underline;
+}
+
+.page_header__button:hover{
+    background-color: aqua;
+}
+
+.img_menu:hover{
+    background-color: aqua;
+}
+
+.logo{
+    background-image: url('./assets/svgg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 58px;
+    position: relative;
+    flex-shrink: 0;
+    display: block;
+}
+
+
+
+.page_footer{
+    min-height: 359px;
+    background-image: url('./assets/footer.png');
+    background-color: #181617;
+}
+
 .main_section{
-    
+    min-height: 400px;
+    padding: 0px 80px;
+}
+
+.main_section__light{
+    background-color: #cccccc;
+    height: 1350px;
+}
+
+.main_section__dark{
+    background-color: #333;
+    color: #fff;
+}
+
+.social_wrapper{
+
+    margin: 40px 0 5px;
+    text-align: left;
+
+    position: relative;
+}
+
+.menu_footer{
+    padding: 100px;
+    display:flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.social_item{
+    text-align: center;
+    width:auto;
+    list-style: none;
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px;
+    height: 20px;
+}
+
+.logo_logo__name{
+    color:#fff;
+    font-size: 32px;
+    line-height: 60px; 
+    font-family: Roboto;
+    padding: 30px 20px;
+}
+
+.text{
+    color:#fff;
+    font-family: Open Sans;    
+    color: #F7F7F7;
+    font-size: 23px;
 }
