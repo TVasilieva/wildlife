@@ -1,2 +1,2 @@
 # wildlife
-tvasilieva-JSFE2021Q1
+https://tvasilieva.github.io/wildlife/
