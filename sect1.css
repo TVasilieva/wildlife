@@ -12,7 +12,7 @@
     display: flex;
     font-size: 30px;
     padding-left: 120px;
-    padding-top: 70px;
+    padding-top: 69px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     color: #CD6326;
@@ -42,11 +42,19 @@
     background-color: #CD6326;
     width: 160px;
     height: 60px;
-    margin: 50px 120px;
+    margin: 47px 0;
+    border: 2px #CD6326;
     border-radius: 5px;
     color: #F7F7F7;
     font-family: 'Roboto', sans-serif;
     font-size: 23px;
-    line-height: 27px;
     text-align: center;
+}
+
+.section1_button a{
+    text-decoration: none;
+}
+
+.section1_button a:hover{
+    color: #000;
 }
