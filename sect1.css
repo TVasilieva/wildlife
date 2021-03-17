@@ -1,8 +1,3 @@
-.section1_wrapper{
-    display: flex;
-    padding: 155px 0px;
-    justify-content: space-between;
-}
 
 .section1_center{
     width: 100%;
@@ -12,17 +7,16 @@
     display: flex;
     font-size: 30px;
     padding-left: 120px;
-    padding-top: 15px;
-    font-family: Open Sans;
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     color: #CD6326;
 }
 
 .section1_name{
-    position: absolute;
     margin: 20px 0 0 120px;
     width: 274px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #F7F7F7;
     letter-spacing: 0.5px;
@@ -31,7 +25,6 @@
 
 .page_header__button{
     padding: 5px 19px;
-    position: absolute;
     width: 120px;
     height: 50px;
     left: 1200px;
@@ -45,7 +38,7 @@
 .section1_button{
     background-color: #CD6326;
     position: absolute;
-    padding: 20px;
+    padding: 0;
     width: 160px;
     height: 60px;
     left: 120px;
@@ -56,4 +49,12 @@
     font-size: 23px;
     line-height: 27px;
     text-align: center;
+}
+
+.section1_button a{
+    text-decoration: none;
+}
+
+.section1_button a:hover{
+    color: #000;
 }
