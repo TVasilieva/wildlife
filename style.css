@@ -31,10 +31,9 @@
 
 .menu_header{
     list-style: none;
-    margin: 0 185px;
+    margin: 0 120px;
     text-align: right;
     justify-content: space-between;
-    width: 340px;
     display: flex;
 }
 
@@ -94,15 +93,17 @@
     background-color: #181617;
 }
 
-.main_section{
+.main_page{
     min-height: 400px;
     padding: 0px 80px;
-}
-
-.main_section__light{
     background-color: #cccccc;
     height: 1350px;
 }
+
+.main_page__articles{
+
+}
+
 
 .social_wrapper{
     margin: 40px 0 5px;
@@ -133,6 +134,17 @@
     line-height: 60px; 
     font-family: 'Roboto', sans-serif;
     padding: 30px 20px;
+}
+
+.logo2{
+    background-image: url('./assets/svgg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 68px;
+    height: 58px;
+    margin: 50px 15px 0 10px;
+    flex-shrink: 0;
+    display: block;
 }
 
 .text{

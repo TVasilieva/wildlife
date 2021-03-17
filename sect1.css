@@ -29,16 +29,14 @@
 }
 
 .page_header__button{
-    padding: 5px 19px;
     width: 120px;
     height: 50px;
-    left: 1200px;
-    top: 24px;
+    padding: 20px 100px 0px 10px;
     border: 2px solid #CD6326;
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 23px;
-    font-family: Open Sans;
+    font-family: 'Open Sans',sans-serif;
 }
 .section1_button{
     background-color: #CD6326;
