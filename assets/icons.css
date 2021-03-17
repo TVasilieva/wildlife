@@ -1,0 +1,23 @@
+.ico_facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url('./facebook.svg');
+}
+
+.ico_inst{
+    width: 40px;
+    height: 40px;
+    background-image: url('./inst.svg');
+}
+
+.ico_pinterest{
+    width: 40px;
+    height: 40px;
+    background-image: url('./pinterest.svg'); 
+}
+
+.ico_telegram{
+    width: 40px;
+    height: 40px;
+    background-image: url('./telegram.svg'); 
+}
