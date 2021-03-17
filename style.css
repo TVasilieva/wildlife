@@ -4,27 +4,27 @@
 
 
 .page_wrapper{
-    margin: 0;
-    height: 780px;
+    min-height: 780px;
+    width: inherit;
     background-image: url('./assets/header.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    text-align: center;
 }
-
 
 .page_header__logo{
     padding: 20px 122px;
     display: flex;
     align-items: center;
+    float: left;
 }
 
 .menu_header{
     list-style: none;
-    margin: 0;
+    margin: 28px 0 0 50px;
     justify-content: space-between;
     display: flex;
+    float: right;
 }
 
 .menu_header a{
@@ -57,6 +57,8 @@
     font-size: 32px;
     font-family: 'Open Sans', sans-serif;
     padding: 0;
+    text-transform: uppercase;
+    line-height: 27px;
 }
 
 .ostMenu{
@@ -158,11 +160,13 @@
 }
 
 .page_footer{
+
     background-image: url('./assets/footer.png');
     background-color: #181617;
     height: 359px;
     background-repeat: no-repeat;
-    padding: 152px 20px 0px 122px;
+    padding: 152px 0 0 122px;
+    background-size: cover;
 }
 
 .social_wrapper{
@@ -171,7 +175,7 @@
 }
 
 .menu_footer{
-    margin: 7px 0 0 99px;
+    margin: 7px 0 0 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -180,22 +184,18 @@
 
 .social_item{
     text-align: center;
-    width:auto;
     list-style: none;
     display: inline-block;
     background-repeat: no-repeat;
-    background-size: contain;
 }
 
-.social_items{
+.social_icons{
     justify-content: space-between;
     text-align: center;
     width: auto;
     list-style: none;
     display: inline-block;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-left: 30px;
+    margin:  2px 20px 0 0px;
 }
 
 .logo2{
@@ -222,6 +222,30 @@
     color:#fff;
     font-family: 'Open Sans', sans-serif;    
     font-size: 23px;
- 
-    padding-right: 86px;
+    padding-right: 87px;
+}
+
+.text a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.text a:hover{
+    text-decoration: underline;
+}
+
+.ico_facebook a{
+    color: transparent;
+}
+
+.ico_inst a{
+    color: transparent;
+}
+
+.ico_pinterest a{
+    color: transparent;
+}
+
+.ico_telegram a{
+    color: transparent;
 }

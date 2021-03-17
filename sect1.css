@@ -1,8 +1,3 @@
-.section1_wrapper{
-    display: flex;
-    padding: 155px 0px;
-    justify-content: space-between;
-}
 
 .section1_center{
     width: 100%;
@@ -12,7 +7,7 @@
     display: flex;
     font-size: 30px;
     padding-left: 120px;
-    padding-top: 69px;
+    padding-top: 20px;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     color: #CD6326;
@@ -29,25 +24,30 @@
 }
 
 .page_header__button{
+    padding: 5px 19px;
     width: 120px;
     height: 50px;
-    padding: 20px 100px 0px 10px;
+    left: 1200px;
+    top: 24px;
     border: 2px solid #CD6326;
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 23px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: Open Sans;
 }
 .section1_button{
     background-color: #CD6326;
+    position: absolute;
+    padding: 0;
     width: 160px;
     height: 60px;
-    margin: 47px 0;
-    border: 2px #CD6326;
+    left: 120px;
+    top: 479px;
     border-radius: 5px;
     color: #F7F7F7;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
     font-size: 23px;
+    line-height: 27px;
     text-align: center;
 }
 
