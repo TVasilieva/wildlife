@@ -12,17 +12,16 @@
     display: flex;
     font-size: 30px;
     padding-left: 120px;
-    padding-top: 15px;
-    font-family: Open Sans;
+    padding-top: 70px;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     color: #CD6326;
 }
 
 .section1_name{
-    position: absolute;
     margin: 20px 0 0 120px;
     width: 274px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #F7F7F7;
     letter-spacing: 0.5px;
@@ -31,7 +30,6 @@
 
 .page_header__button{
     padding: 5px 19px;
-    position: absolute;
     width: 120px;
     height: 50px;
     left: 1200px;
@@ -44,15 +42,12 @@
 }
 .section1_button{
     background-color: #CD6326;
-    position: absolute;
-    padding: 20px;
     width: 160px;
     height: 60px;
-    left: 120px;
-    top: 479px;
+    margin: 50px 120px;
     border-radius: 5px;
     color: #F7F7F7;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     line-height: 27px;
     text-align: center;

@@ -2,32 +2,26 @@
     box-sizing: border-box;
 }
 
-.bg_header{
-    min-height: 780px;
-    background-image: url('./assets/header.png');
-}
 
 .page_wrapper{
-    max-width: 1440px;
     width: 100%;
-    min-width: 1080px;
-    margin: 0 auto;
-    position: relative;
+    margin: 0;
+    min-height: 780px;
+    background-image: url('./assets/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page_header{
-    position: absolute;
     width: 100%;
     color: #fff;
-    padding: 0px 80px;
     text-align: center;
-    /* background-color: #02160b */
+    background-color: #02160b;
 }
 
-.page_header__menu{
-    padding: 20px 40px;
+.page_header__logo{
+    padding: 20px 120px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -53,7 +47,7 @@
     display: inline-block;
     padding: 3px 0;
     margin: right;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     vertical-align: top;
     color: #F7F7F7;
@@ -61,7 +55,7 @@
 
 .logo_name{
     font-size: 32px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     padding: 0;
 }
 
@@ -86,6 +80,7 @@
     background-size: cover;
     width: 68px;
     height: 58px;
+    margin: 0 15px 0 0;
     position: relative;
     flex-shrink: 0;
     display: block;
@@ -109,24 +104,16 @@
     height: 1350px;
 }
 
-.main_section__dark{
-    background-color: #333;
-    color: #fff;
-}
-
 .social_wrapper{
-
     margin: 40px 0 5px;
     text-align: left;
-
-    position: relative;
 }
 
 .menu_footer{
     padding: 100px;
     display:flex;
-flex-direction: row;
-justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .social_item{
@@ -144,13 +131,13 @@ justify-content: space-between;
     color:#fff;
     font-size: 32px;
     line-height: 60px; 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     padding: 30px 20px;
 }
 
 .text{
     color:#fff;
-    font-family: Open Sans;    
+    font-family: 'Open Sans', sans-serif;    
     color: #F7F7F7;
     font-size: 23px;
 }
