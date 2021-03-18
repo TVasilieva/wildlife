@@ -33,7 +33,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 23px;
-    font-family: Open Sans;
+    font-family: 'Roboto',sans-serif;
 }
 .section1_button{
     background-color: #CD6326;
@@ -45,13 +45,14 @@
     top: 479px;
     border-radius: 5px;
     color: #F7F7F7;
-    font-family: Roboto;
+    font-family: 'Roboto',sans-serif;
     font-size: 23px;
     line-height: 27px;
     text-align: center;
 }
 
 .section1_button a{
+    color: #f7f7f7;
     text-decoration: none;
 }
 
